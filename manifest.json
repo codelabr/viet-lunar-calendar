@@ -1,0 +1,33 @@
+{
+	"name": "__MSG_extName__",
+	"version": "1.0",
+	"manifest_version": 2,
+	
+	"description": "__MSG_extDescription__",
+	"icons": { 
+		"16": "static/icon16.png",
+		"24": "static/icon24.png",
+		"32": "static/icon32.png",
+        "48": "static/icon48.png",
+		"64": "static/icon64.png",
+        "128": "static/icon128.png"
+	},
+	"default_locale": "en_US",
+	
+	"content_scripts": [ {
+		"all_frames": true,
+		"css": [ "content.css" ],
+		"js": [ "content.js" ],
+		"matches": [ "\u003Call_urls\u003E" ]
+	} ],
+	"permissions": [
+		"http://*/*",
+		"https://*/*",
+		"tabs"
+	],
+	"homepage_url": "http://code.google.com/p/viet-lunar-calendar",
+	"offline_enabled": true,
+	"web_accessible_resources": [
+		"manifest.json"
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"extName": {
+		"message": "Lunar Calendar",
+		"description": "Extension name."
+	},
+	"extDescription": {
+		"message": "An utility to convert solar dates to lunar dates while surfing the Internet.",
+		"description": "Description of the extension."
+	},
+	"title_SolarDate": {
+		"message": "Solar date: ",
+		"description": "Displayed in the bubble tooltip before the solar date."
+	},
+	"title_LunarDate": {
+		"message": "Lunar date: ",
+		"description": "Displayed in the bubble tooltip before the lunar date."
+	},
+	"text_Day": {
+		"message": "the day of",
+		"description": "Day"
+	},
+	"text_Month": {
+		"message": "the month of",
+		"description": "Month"
+	},
+	"text_Year": {
+		"message": "the year of",
+		"description": "Year"
+	},
+	"text_NotValidDate": {
+		"message": "No valid date information found.",
+		"description": "Not a valid date in selected text."
+	}
+}
